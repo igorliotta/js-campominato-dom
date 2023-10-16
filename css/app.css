@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    aspect-ratio: 1;
+    border: 1px solid black;
+    width: calc(100% / 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-light-blue {
+    background-color: lightskyblue;
+}
