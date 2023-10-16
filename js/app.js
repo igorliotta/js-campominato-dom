@@ -41,3 +41,20 @@ btnPlayElement.addEventListener('click', function () {
     })
    }
 })
+
+function getArrayOfIntRandomNumber() {
+   
+    const bombsArray = [];
+    while (bombsArray.lenght < 16) {
+        const number = getRandomIntInclusive(1, 100);
+        console.log(bombsArray.includes(number));
+
+        if (bombsArray.includes(number) === false) {
+            bombsArray.push(number);
+        }
+    }
+
+    return bombsArray;
+
+}
+
